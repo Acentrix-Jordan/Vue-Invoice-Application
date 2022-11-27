@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "League Spartan", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 2.25rem;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.375rem;
+  letter-spacing: -0.63px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.8px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 0.75rem;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+  font-weight: bold;
+}
+
+p.body1 {
+  font-size: 0.75rem;
+  line-height: 15px;
+  letter-spacing: -0.25px;
+}
+
+p.body2 {
+  font-size: 11px;
+  line-height: 18px;
+  letter-spacing: -0.23px;
+}
+
+select {
+  font-weight: bold;
+  background-color: transparent;
+  padding: 0.25rem;
+}
+
+.btn-brand {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  padding: 0.5rem 0.5rem;
+  padding-right: 1rem;
+  border-radius: 500px;
+  border: none;
+  background-color: #7c5dfa;
+  color: white;
+  transition: all ease-in 0.2s;
+}
+
+.btn-brand:hover {
+  background-color: #9277ff;
+}
+
+.btn-brand svg {
+  width: 32px;
+  height: 32px;
+  margin-right: 0.75rem;
+  color: white;
+}
