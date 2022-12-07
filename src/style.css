@@ -52,11 +52,12 @@ select {
   padding: 0.25rem;
 }
 
-.btn-brand {
+.btn-brand,
+.btn-brand-icon {
   display: flex;
   align-items: center;
   font-size: 0.875rem;
-  padding: 0.5rem 0.5rem;
+  padding: 0.5rem 1rem;
   padding-right: 1rem;
   border-radius: 500px;
   border: none;
@@ -65,13 +66,29 @@ select {
   transition: all ease-in 0.2s;
 }
 
+.btn-brand-icon {
+  padding: 0.5rem 0.5rem;
+  padding-right: 1rem;
+}
+
 .btn-brand:hover {
   background-color: #9277ff;
 }
 
-.btn-brand svg {
+.btn-brand-icon svg {
   width: 32px;
   height: 32px;
   margin-right: 0.75rem;
   color: white;
+}
+
+input {
+  padding: 0.25rem 0.75rem;
+  border: 1px solid #dfe3fa;
+  border-radius: 0.25rem;
+}
+
+label {
+  color: #7e88c3;
+  margin-bottom: 0.5rem;
 }

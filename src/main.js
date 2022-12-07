@@ -4,6 +4,12 @@ import { createPinia } from "pinia";
 import App from "./App.vue";
 import router from "./router";
 
+import Datepicker from "@vuepic/vue-datepicker";
+import "@vuepic/vue-datepicker/dist/main.css";
+
+import vSelect from "vue-select";
+import "vue-select/dist/vue-select.css";
+
 import "./style.css";
 
 // Font Awesome Core
@@ -19,4 +25,6 @@ createApp(App)
   .use(createPinia())
   .use(router)
   .component("font-awesome-icon", FontAwesomeIcon)
+  .component("Datepicker", Datepicker)
+  .component("V-Select", vSelect)
   .mount("#app");

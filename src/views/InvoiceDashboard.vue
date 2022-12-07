@@ -14,7 +14,7 @@
           <option value="">Y</option>
           <option value="">Z</option>
         </select>
-        <button class="btn-brand">
+        <button class="btn-brand-icon">
           <font-awesome-icon icon="fa-solid fa-circle-plus mr-8" />
           New Invoice
         </button>
@@ -34,9 +34,11 @@
         <strong>New Invoice</strong> button and get started!
       </p>
     </div>
+    <InvoiceForm />
   </main>
 </template>
 <script setup>
 import { ref } from "vue";
+import InvoiceForm from "../components/InvoiceForm.vue";
 const invoices = ref(false);
 </script>

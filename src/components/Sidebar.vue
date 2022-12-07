@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-sidebar flex flex-col w-fit h-screen justify-between rounded-r-3xl sticky top-0"
+    class="z-50 bg-sidebar flex flex-col w-fit h-screen justify-between rounded-r-3xl sticky top-0"
   >
     <div>
       <div class="flex justify-center items-center text-white">
